@@ -12,7 +12,7 @@ const visitLimit = 10;
 let visitedCount = 0;
 let result = false;
 
-function crawl() {
+function crawler() {
   const visitPage = function(url, crawl) {
     visited[url] = true;
     visitedCount++;
